@@ -15,8 +15,7 @@ body {
 .main {
     width: 100%;
     height: 100vh; /* Ensures full viewport height */
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
-        url('4.jpg') no-repeat center center/cover; /* Corrected */
+    background: #f7e4e4; /* Changed to off-white color */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -67,20 +66,25 @@ body {
 /* Content Styling */
 .content {
     text-align: center;
-    color: #fff;
+    color: #debbbb;
     position: absolute;
     bottom: 20px;
 }
 
 .content h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    color: #000; /* Black color for the heading */
+    font-weight: bold; /* Optional: Make it bold */
+    font-size: 2rem; /* Adjust font size as needed */
+    text-align: center; /* Center-align the text */
 }
 
 .content p {
-    font-size: 1.2rem;
+    color: #000; /* Black color for the paragraph */
+    font-size: 1.2rem; /* Adjust font size as needed */
+    text-align: center; /* Center-align the text */
+    line-height: 1.5; /* Add spacing for better readability */
 }
+
 
 /* Design Section */
 .design {
@@ -169,6 +173,4 @@ footer {
         font-size: 1rem;
     }
 }
-
-
 
